@@ -1,5 +1,5 @@
 package br.com.desktop;
-
+//teste
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
@@ -57,7 +57,7 @@ public class Leitura {
 
 		bL.close();
 		leitura.close();
-		FileWriter escrita = new FileWriter(pathSaida,false);//n„o apaga o arquivo
+		FileWriter escrita = new FileWriter(pathSaida,false);//n√£o apaga o arquivo
 		BufferedWriter bE = new BufferedWriter(escrita);
 		
 		Collections.sort(lista);
